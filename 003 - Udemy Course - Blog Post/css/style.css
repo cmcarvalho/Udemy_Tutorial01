@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: #cececece;
+}
+
+h1 {
+  color: black;
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
+  margin: 10px 10px 10px 5px;
+}
+
+h2 {
+  color: black;
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+  margin: 10px 10px 10px 5px;
+}
+
+p {
+  color: black;
+  font-size: 14px;
+  text-align: justify;
+  font-family: "Merriweather", serif;
+  margin: 10px 10px 10px 5px;
+}
+
+a,
+img {
+  margin: 10px 10px 10px 5px;
+}
+
+.blog-post {
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+}
+
+.other-posts {
+  width: 25%;
+  float: left;
+}
+
+.author-box {
+  border-top: 1px solid #333333;
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+}
+
+.css3-logo {
+  opacity: 0.85;
+  margin: 10px 10px 10px 5px;
+  height: 100px;
+  width: auto;
+}
+
+.author-text {
+  font-size: 15px;
+  margin: 30px 10px 10px 5px;
+  float: left;
+}
+
+.container {
+  width: 1140px;
+  margin: 10px auto 20px auto;
+}
